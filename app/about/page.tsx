@@ -2,11 +2,11 @@ import Navbar from "../components/Navbar";
 import '../globals.css';
 const About = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center p-24 font-mono">
+    <main className="flex flex-col items-center min-h-screen p-24">
       <Navbar />
-      <div>
-      <h1>About</h1>
-      <p>This is the about page</p>
+      <div className="max-w-5xl w-full text-sm">
+      <h1 className="text-2xl mb-8">About</h1>
+      <p className="text-lg w-2/3">I&apos;m Mariah, a fullstack engineer based in Amsterdam. I work with Node.js, Cloud, TypeScript, databases and more to drive measurable outcomes in my projects.</p>
     </div>
     </main>
   );

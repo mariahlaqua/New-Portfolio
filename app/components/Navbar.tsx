@@ -4,7 +4,7 @@ import '../globals.css';
 const Navbar = () => {
   return (
     <nav>
-      <ul className="flex flex-row justify-items-end py-8 font-mono">
+      <ul className="flex flex-row justify-items-end py-8">
         <li className='px-8'>
           <Link href="/">
             Home
