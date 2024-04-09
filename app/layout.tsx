@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
 import { Raleway } from "next/font/google";
 import "./globals.css";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const raleway = Raleway({subsets: ["latin"] });
+
+const globalStyles = `${raleway.className} flex flex-col max-w-5xl w-full items-center min-h-screen p-24`;
 
 export const metadata: Metadata = {
   title: "Mariah Laqua",
@@ -16,7 +20,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={raleway.className}>{children}</body>
+      <body className={globalStyles}>
+        <Navbar />
+        {children}
+        <Footer />
+        </body>
     </html>
   );
 }
