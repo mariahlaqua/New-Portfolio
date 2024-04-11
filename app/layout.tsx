@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 
 const raleway = Raleway({subsets: ["latin"] });
 
-const globalStyles = `${raleway.className} flex flex-col max-w-5xl w-full items-center min-h-screen p-24`;
+const globalStyles = `${raleway.className} flex flex-col max-w-5xl w-full min-h-screen p-24 m-auto`;
 
 export const metadata: Metadata = {
   title: "Mariah Laqua",

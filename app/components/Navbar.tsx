@@ -3,9 +3,9 @@ import '../globals.css';
 
 const Navbar = () => {
   return (
-    <nav>
-      <ul className="flex flex-row justify-items-end py-8">
-        <li className='px-8'>
+    <nav className='mb-16'>
+      <ul className="flex flex-row justify-end">
+        <li className='pr-8'>
           <Link href="/">
             Home
           </Link>
@@ -15,7 +15,7 @@ const Navbar = () => {
             Blog
           </Link>
         </li>
-        <li>
+        <li className='pr-8'>
           <Link href="/about">
             About
           </Link>

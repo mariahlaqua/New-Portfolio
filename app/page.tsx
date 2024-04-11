@@ -1,13 +1,15 @@
 
-export default function Home() {
+const Home =() => {
   return (
-    <main className="flex min-h-screen flex-col items-center p-24">
-      <div className="z-10 max-w-5xl w-full items-center text-sm lg:flex">
+    <main>
+      <div>
        <p className="text-xl mb-8">Mariah Laqua</p>
       </div>
-      <div className="max-w-5xl w-full items-center text-lg lg:flex   mb-16">
+      <div className="text-lg mb-16">
         <p className="text-lg">Fullstack engineer based in Amsterdam.</p>
       </div>
     </main>
   );
 }
+
+export default Home;
